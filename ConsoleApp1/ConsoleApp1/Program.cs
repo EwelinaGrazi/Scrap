@@ -6,12 +6,22 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    class Program
+    class Variable
     {
-     {
-        Console.WriteLine("Hello World");
+     
+        static void Main(string[] args)
+            
+    {
+            int y;
+            int x; 
+  
+    x=7;
+            y = x + 3;
+            Console.WriteLine(y);
             Console.ReadLine();
-        
+
+
+        }
         }
     }
-}
+
