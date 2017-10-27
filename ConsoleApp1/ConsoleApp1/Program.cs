@@ -8,20 +8,30 @@ namespace HelloWorld
 {
     class Variable
     {
-     
+
         static void Main(string[] args)
-            
-    {
-            int y;
-            int x; 
-  
-    x=7;
-            y = x + 3;
-            Console.WriteLine(y);
+
+        {
+
+
+            Console.WriteLine("What is your name?");
+            Console.Write("type your first name ");
+            string myFirstName;
+            myFirstName = Console.ReadLine();
+
+            string myLastName;
+            Console.Write("type your last name ");
+
+            myLastName = Console.ReadLine();
+
+            Console.WriteLine("Hello, " + myFirstName + "" + myLastName);
             Console.ReadLine();
 
 
-        }
+
         }
     }
+}
+                
+                
 
