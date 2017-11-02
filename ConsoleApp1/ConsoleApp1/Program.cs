@@ -6,29 +6,23 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    class Variable
+    class Program
     {
 
         static void Main(string[] args)
 
+
+
         {
+            int[] arr = new int[10];
 
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Enter the array elements[" + i + "]:");
 
-            Console.WriteLine("What is your name?");
-            Console.Write("type your first name ");
-            string myFirstName;
-            myFirstName = Console.ReadLine();
+                Console.Read();
 
-            string myLastName;
-            Console.Write("type your last name ");
-
-            myLastName = Console.ReadLine();
-
-            Console.WriteLine("Hello, " + myFirstName + "" + myLastName);
-            Console.ReadLine();
-
-
-
+            }
         }
     }
 }
