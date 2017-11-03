@@ -14,18 +14,20 @@ namespace HelloWorld
 
 
         {
-            int[] arr = new int[10];
+
 
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Enter the array elements[" + i + "]:");
-
-                Console.Read();
-
+                Console.WriteLine(i);
+            }
+                Console.ReadLine();
             }
         }
     }
-}
+
                 
-                
+
+             
+
+               
 
