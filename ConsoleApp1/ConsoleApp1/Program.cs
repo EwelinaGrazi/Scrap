@@ -15,21 +15,29 @@ namespace HelloWorld
 
         {
 
-            int[] array = {1, 2, 3 };
-         
+            int[] array = { 1, 2, 3 };
+
             foreach (int value in array)
-            { Console.WriteLine(value);
+            {
+                Console.WriteLine(value);
             }
             Console.WriteLine();
             Array.Reverse(array);
             foreach (int value in array)
-            { Console.WriteLine(value);
+            {
+                Console.WriteLine(value);
             }
             Console.WriteLine();
+
+
         }
     }
 }
-                
+
+
+    
+
+             
 
              
 
