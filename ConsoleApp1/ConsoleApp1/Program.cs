@@ -15,16 +15,20 @@ namespace HelloWorld
 
         {
 
-
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine(i);
+            int[] array = {1, 2, 3 };
+         
+            foreach (int value in array)
+            { Console.WriteLine(value);
             }
-                Console.ReadLine();
+            Console.WriteLine();
+            Array.Reverse(array);
+            foreach (int value in array)
+            { Console.WriteLine(value);
             }
+            Console.WriteLine();
         }
     }
-
+}
                 
 
              
