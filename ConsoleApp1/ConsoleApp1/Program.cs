@@ -27,15 +27,12 @@ namespace HelloWorld
             foreach (int value in arr)
 
             {
-                Console.WriteLine(value);
+              
             }
-            Console.WriteLine();
+            
             Array.Reverse(arr);
 
-            foreach (int value in arr)
-            {
-                Console.WriteLine(value);
-            }
+            
 
 
             for (int i = 0; i < 10; i++)
