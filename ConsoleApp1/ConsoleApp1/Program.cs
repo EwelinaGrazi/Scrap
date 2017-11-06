@@ -15,15 +15,24 @@ namespace HelloWorld
 
         {
 
-            int[] array = { 1, 2, 3 };
 
-            foreach (int value in array)
+            int[] arr = new int[10];
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Enter the array elements[" + i + "]:");
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+
+
+            foreach (int value in arr)
+
             {
                 Console.WriteLine(value);
             }
             Console.WriteLine();
-            Array.Reverse(array);
-            foreach (int value in array)
+            Array.Reverse(arr);
+            foreach (int value in arr)
             {
                 Console.WriteLine(value);
             }
